@@ -76,9 +76,9 @@
         "storybook": "^8.3.0",
         "supabase": "^1.226.3",
         "typescript": "^5.3.3",
-        "vite": "^5.0.12",
+        "vite": "^6.2.1",
         "vite-plugin-dts": "^4.2.1",
-        "vitest": "^2.1.9",
+        "vitest": "^3.0.8",
         "web-vitals": "^4.2.2"
     },
     "scripts": {
