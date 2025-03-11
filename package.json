@@ -1,4 +1,5 @@
 {
+    "homepage": "https://jbill86.github.io/atomic-crm",
     "name": "atomic-crm",
     "version": "0.0.2",
     "type": "module",
@@ -84,6 +85,8 @@
     "scripts": {
         "test": "vitest",
         "dev": "vite --force",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "build": "tsc && vite build",
         "build-lib": "tsc && vite build --config vite.lib.config",
         "preview": "vite preview",
