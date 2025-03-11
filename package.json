@@ -86,7 +86,7 @@
         "test": "vitest",
         "dev": "vite --force",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d dist",
         "build": "tsc && vite build",
         "build-lib": "tsc && vite build --config vite.lib.config",
         "preview": "vite preview",

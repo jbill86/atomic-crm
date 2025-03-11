@@ -70,6 +70,7 @@ const alias = [
 
 // https://vitejs.dev/config/
 export default defineConfig({
+    base: "/atomic-crm/",
     plugins: [
         react(),
         visualizer({
